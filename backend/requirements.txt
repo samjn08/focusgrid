@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+chromadb
+openai
+pydantic
+python-dotenv
+pypdf
+python-multipart
+tiktoken
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+python-dateutil

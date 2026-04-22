@@ -1,0 +1,10 @@
+venv
+.env
+.env.local
+__pycache__
+productivity.db
+token.json
+chroma_db
+gmail_token.json
+credentials.json
+client_secret.json
