@@ -2,7 +2,6 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @plugin "@tailwindcss/typography";
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -90,7 +89,8 @@
   --card-foreground: #f7f6f8;
   --popover: #191022;
   --popover-foreground: #f7f6f8;
-  --primary: #0f7bf8; /* Updated to a professional blue */
+  --primary: #0f7bf8;
+  /* Updated to a professional blue */
   --primary-foreground: #ffffff;
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -101,7 +101,8 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: #0f7bf8; /* Updated to match primary */
+  --ring: #0f7bf8;
+  /* Updated to match primary */
   --chart-1: oklch(0.809 0.105 251.813);
   --chart-2: oklch(0.623 0.214 259.815);
   --chart-3: oklch(0.546 0.245 262.881);
@@ -109,21 +110,25 @@
   --chart-5: oklch(0.424 0.199 265.638);
   --sidebar: #191022;
   --sidebar-foreground: #f7f6f8;
-  --sidebar-primary: #0f7bf8; /* Updated to match primary */
+  --sidebar-primary: #0f7bf8;
+  /* Updated to match primary */
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: #0f7bf8; /* Updated to match primary */
+  --sidebar-ring: #0f7bf8;
+  /* Updated to match primary */
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }
